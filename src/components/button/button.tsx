@@ -34,3 +34,9 @@ export const GradientButton = styled(Button)`
 export const SubmitButton = styled(Button).attrs((props) => ({
   type: "submit",
 }))``; //addin `` is important here
+
+export const DarkButton = styled(Button)`
+  border: 2px solid ${({ theme }) => theme.dark.primary};
+  background: ${({ theme }) => theme.dark.primary};
+  color: ${({ theme }) => theme.dark.text};
+`;

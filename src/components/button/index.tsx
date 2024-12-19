@@ -1,1 +1,1 @@
-export { Button, GradientButton, SubmitButton } from "./button";
+export { Button, GradientButton, SubmitButton, DarkButton } from "./button";
